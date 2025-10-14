@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #181A20;
+    color: #F5F6FA;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #23272F;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #93c698;
+}
+nav {
+    margin: 15px 0 0 0;
+}
+nav a {
+    color: #9db983;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #c5f74f;
+}
+main {
+    padding: 30px 10%;
+}
+section {
+    background: #23272F;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.game-list {
+    list-style: none;
+    padding: 0;
+}
+.game-list li {
+    margin: 20px 0;
+    padding: 15px;
+    background: #2C303A;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background: #23272F;
+    color: #999;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    margin-bottom: 10px;
+    background: #1F2128;
+    color: #F5F6FA;
+}
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background: #4F8EF7;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #3763c6;
+}
